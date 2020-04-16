@@ -51,9 +51,10 @@ header h1{
 
 nav{
     background-color: #f2f2f2;
-    padding: 6px;
+    padding: 3px;
     position: sticky;
     top: 75px;
+    z-index: 1;
 }
 
 nav ul{
@@ -124,4 +125,31 @@ nav li a{
 
 .images li p{
     color: #3c3b53;
+}
+
+section.join{
+    background-color: #e4e4e5;
+    text-align: center;
+    padding: 0px 20px 20px;
+    border: 3px #ffffff outset;
+    color: #3c3b53;
+}
+
+.join h2{
+    font-size: 30px;
+}
+
+.join form input{
+    font-size: 22px;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+footer{
+    background-color: #5b54ca;
+    padding: 3px;
+    color: white;
+    text-align: center;
 }
