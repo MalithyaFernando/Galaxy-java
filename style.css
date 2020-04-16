@@ -98,3 +98,30 @@ nav li a{
     margin: 0 auto;
     width: 150px;
 }
+
+.images{
+    text-align: center;
+    margin: 20px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.images li{
+    border: 2px #3c3b53 solid;
+    display: inline-block;
+    width: 30%;
+    margin: 3px 1%;
+}
+
+.images li img{
+    max-width: 100%;
+}
+
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+
+.images li p{
+    color: #3c3b53;
+}
